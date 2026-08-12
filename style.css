@@ -8,6 +8,7 @@
   --primary-color: #2563eb;
   --tag-bg: #e0e7ff;
   --tag-color: #1d4ed8;
+  --code-bg: #e2e8f0;
   
   /* Sombras Modo Claro */
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -20,6 +21,7 @@ body.dark-mode {
   --card-bg: #1e293b;
   --tag-bg: #1e3a8a;
   --tag-color: #93c5fd;
+  --code-bg: #334155;
 
   /* Sombras Modo Escuro (Azul brilhante e suave) */
   --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
@@ -171,6 +173,14 @@ article.card:hover {
   opacity: 0.85;
   margin-bottom: 1rem;
   font-size: 0.95rem;
+}
+
+code {
+  background-color: var(--code-bg);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
 }
 
 .read-more {
