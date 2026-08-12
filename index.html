@@ -51,6 +51,55 @@
 
     </section>
   </main>
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevLog | Projeto & Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">DevLog <span>_</span></a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="articles.html">Artigos</a>
+      <a href="about.html">Sobre</a>
+      <a href="docs.html" class="active">Projeto & Feedback</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Alternar Tema">🌙 Modo Escuro</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Relatório de Testes de Usabilidade</h2>
+      <p>Aprendizados obtidos através da observação de usuários interagindo com o protótipo.</p>
+    </section>
+
+    <section class="cards-grid">
+      
+      <article class="card">
+        <span class="tag tag-success">Aprendizado 01 — Clareza de Interface</span>
+        <h2>Intuitividade nos Efeitos Visuais e Temas</h2>
+        <p><strong>O que observamos:</strong> Os usuários identificaram imediatamente o botão de troca de tema e compreenderam que os cartões eram clicáveis devido ao efeito de elevação no <code>:hover</code>.</p>
+        <p><strong>Conclusão:</strong> O feedback visual instantâneo reduz a carga cognitiva e confirma ao usuário quais elementos são interativos sem a necessidade de instruções prévias.</p>
+      </article>
+
+      <article class="card">
+        <span class="tag tag-warning">Aprendizado 02 — Ponto de Melhoria</span>
+        <h2>Necessidade de Sinalização na Navegação</h2>
+        <p><strong>O que observamos:</strong> Houve uma breve hesitação sobre qual página estava ativa ao navegar pelo menu superior.</p>
+        <p><strong>Conclusão:</strong> Tornou-se essencial implementar um indicador visual destacado (classe <code>.active</code>) no menu de navegação, deixando claro em qual seção o usuário se encontra.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
