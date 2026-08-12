@@ -1,4 +1,4 @@
-# ajustando-o-prot-tipo
+
 # 🚀 DevLog - Blog & Documentação de Projeto
 
 Plataforma Web multi-páginas de tecnologia com suporte a **Modo Escuro (Dark Mode)**, microinterações CSS e uma seção dedicada ao registro de aprendizados e testes de usabilidade do projeto.
